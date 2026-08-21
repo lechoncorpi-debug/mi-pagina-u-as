@@ -1,238 +1,236 @@
-<!DOCTYPE html>\
-<html lang="en" class="no-js">\
-<head>\
-<meta charset="UTF-8" />\
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />\
-<title>Valmont Studio \'97 Nails & Lashes</title>\
-<meta name="description" content="Valmont Studio Nails & Lashes \'97 certified acrylic, spa pedicures, lash extensions and hand-painted art. Book your appointment." />\
-<link rel="preconnect" href="https://fonts.googleapis.com">\
-<link rel="\
-preconnect" href="https://fonts.gstatic.com" crossorigin>\
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">\
-<style>\
-:root\{--cream:#F4EDE3;--cream-2:#EFE6D8;--sand:#E7DAC6;--sand-soft:#F1E9DC;--rose:#F1E1DB;--rose-deep:#C98B82;--ink:#241C17;--ink-soft:#4A3E35;--muted:#6E6156;--muted-dark:#C9BBA9;--gold:#B08A3E;--gold-ink:#8C6E2C;--gold-2:#E0C483;--gold-grad:linear-gradient(120deg,#C9A24B,#E7CE8E 48%,#B08A3E);--line:rgba(176,138,62,.32);--line-soft:rgba(176,138,62,.18);--shadow:0 30px 60px -30px rgba(36,28,23,.45);--serif:"Cormorant Garamond",Georgia,serif;--sans:"Jost",system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1);--wrap:1280px;--pad:clamp(1.25rem,5vw,4rem);--sec:clamp(4.5rem,10vw,8.5rem)\}\
-*,*::before,*::after\{box-sizing:border-box;margin:0;padding:0\}\
-html\{scroll-behavior:smooth\}body\{font-family:var(--sans);font-weight:300;background:var(--cream);color:var(--ink);line-height:1.6;font-size:clamp(1rem,1.05vw,1.075rem);-webkit-font-smoothing:antialiased;overflow-x:hidden\}\
-img\{max-width:100%;display:block;height:auto\}a\{color:inherit;text-decoration:none\}ul\{list-style:none\}button\{font:inherit;color:inherit;background:none;border:none;cursor:pointer\}\
-::selection\{background:var(--gold);color:#fff\}\
-body::after\{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")\}\
-.wrap\{max-width:var(--wrap);margin:0 auto;padding-inline:var(--pad)\}section\{scroll-margin-top:96px;position:relative\}\
-.kicker\{font-weight:400;font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-ink);display:inline-flex;align-items:center;gap:.9rem\}.kicker::before\{content:"";width:34px;height:1px;background:var(--gold)\}.kicker.on-dark\{color:var(--gold-2)\}\
-.serif\{font-family:var(--serif);font-weight:500;line-height:1.02\}.it\{font-style:italic;font-weight:500;color:var(--gold-ink)\}.on-dark .it\{color:var(--gold-2)\}.lead\{color:var(--muted);max-width:46ch\}.on-dark .lead\{color:var(--muted-dark)\}\
-a:focus-visible,button:focus-visible\{outline:2px solid var(--gold);outline-offset:4px\}\
-.skip\{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--cream);padding:.7rem 1rem;z-index:10000\}.skip:focus\{left:0\}\
-/* missing-image helper */\
-.missing\{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;aspect-ratio:4/5;min-height:200px;width:100%;background:var(--sand-soft);border:1.5px dashed var(--line);border-radius:14px;color:var(--muted);font-size:.8rem;letter-spacing:.04em;text-align:center;padding:1rem\}.missing b\{color:var(--gold-ink);font-family:var(--serif);font-size:1.1rem\}\
-.btn\{display:inline-flex;align-items:center;gap:.7rem;font-weight:400;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;padding:1.05rem 1.9rem;border-radius:100px;position:relative;overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s var(--ease);white-space:nowrap\}.btn .arw\{font-family:var(--serif);font-size:1.1rem;transition:transform .5s var(--ease)\}.btn:hover .arw\{transform:translateX(5px)\}\
-.btn-primary\{background:var(--gold-grad);color:var(--ink);box-shadow:0 14px 30px -14px rgba(176,138,62,.7)\}.btn-primary::after\{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 32%,rgba(255,255,255,.55) 50%,transparent 68%);transform:translateX(-130%);transition:transform .85s var(--ease)\}.btn-primary:hover\{transform:translateY(-2px)\}.btn-primary:hover::after\{transform:translateX(130%)\}\
-.btn-ghost\{border:1px solid var(--line)\}.btn-ghost:hover\{border-color:var(--gold);transform:translateY(-2px)\}.btn-ghost.on-dark\{border-color:rgba(224,196,131,.4);color:var(--cream)\}\
-.tlink\{display:inline-flex;align-items:center;gap:.55rem;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;position:relative;padding-bottom:3px\}.tlink::after\{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--gold);transform:scaleX(.35);transform-origin:left;transition:transform .5s var(--ease)\}.tlink:hover::after\{transform:scaleX(1)\}\
-.progress\{position:fixed;top:0;left:0;height:2px;width:0;background:var(--gold-grad);z-index:9999\}\
-.topbar\{background:var(--ink);color:var(--cream);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;text-align:center;padding:.55rem var(--pad);z-index:60;position:relative\}.topbar span\{color:var(--gold-2)\}.topbar .dot\{color:var(--gold);margin:0 .9rem\}\
-.header\{position:sticky;top:0;z-index:70;padding:1.1rem 0;transition:background .5s,box-shadow .5s,padding .5s\}.header .wrap\{display:flex;align-items:center;justify-content:space-between;gap:1rem\}.header.scrolled\{background:rgba(244,237,227,.86);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line-soft);padding:.7rem 0\}\
-.logo\{display:flex;flex-direction:column;line-height:1;gap:.18rem\}.logo .l1\{font-family:var(--serif);font-size:1.65rem;font-weight:600;letter-spacing:.14em\}.logo .l1 b\{color:var(--gold-ink)\}.logo .l2\{font-size:.56rem;letter-spacing:.42em;text-transform:uppercase;color:var(--muted)\}\
-.nav\{display:none;align-items:center;gap:2.2rem\}.nav a\{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;position:relative;padding:.3rem 0\}.nav a::after\{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)\}.nav a:hover::after\{transform:scaleX(1);transform-origin:left\}\
-.head-cta\{display:none\}.burger\{width:44px;height:44px;display:grid;place-items:center;position:relative;z-index:80\}.burger span\{display:block;width:24px;height:1.5px;background:var(--ink);position:relative;transition:background .4s\}.burger span::before,.burger span::after\{content:"";position:absolute;left:0;width:24px;height:1.5px;background:var(--ink);transition:transform .4s,top .4s\}.burger span::before\{top:-7px\}.burger span::after\{top:7px\}\
-body.menu-open .burger span\{background:transparent\}body.menu-open .burger span::before\{top:0;transform:rotate(45deg)\}body.menu-open .burger span::after\{top:0;transform:rotate(-45deg)\}\
-.mmenu\{position:fixed;inset:0;z-index:75;background:var(--ink);color:var(--cream);display:flex;flex-direction:column;justify-content:space-between;padding:6rem var(--pad) 2.5rem;clip-path:circle(0 at calc(100% - 2.4rem) 2.4rem);transition:clip-path .8s var(--ease);visibility:hidden\}body.menu-open .mmenu\{clip-path:circle(150% at calc(100% - 2.4rem) 2.4rem);visibility:visible\}\
-.mmenu .mnav\{display:flex;flex-direction:column;gap:.4rem\}.mmenu .mnav a\{font-family:var(--serif);font-size:clamp(2.4rem,11vw,4rem);font-weight:500;display:flex;align-items:baseline;gap:1rem;opacity:0;transform:translateY(20px);transition:opacity .6s var(--ease),transform .6s var(--ease),color .4s\}body.menu-open .mmenu .mnav a\{opacity:1;transform:none\}.mmenu .mnav a i\{font-style:normal;font-size:.7rem;letter-spacing:.2em;color:var(--gold-2)\}.mmenu .mnav a:hover\{color:var(--gold-2)\}\
-.mmenu .mfoot\{display:flex;flex-direction:column;gap:1.4rem;border-top:1px solid rgba(224,196,131,.2);padding-top:1.6rem\}.mmenu .mfoot .row\{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem\}.mmenu .mfoot .socials\{display:flex;gap:1.4rem;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase\}.mmenu .mfoot .socials a:hover\{color:var(--gold-2)\}\
-body.no-scroll\{overflow:hidden\}\
-.hero\{position:relative;padding:clamp(2rem,6vw,4rem) 0 var(--sec);overflow:hidden\}.hero-watermark\{position:absolute;top:8%;right:-2%;font-family:var(--serif);font-size:clamp(8rem,30vw,26rem);line-height:1;color:transparent;-webkit-text-stroke:1px var(--line-soft);z-index:0;pointer-events:none\}\
-.hero .wrap\{position:relative;z-index:2;display:grid;gap:clamp(2.5rem,5vw,4rem);align-items:center\}.hero-copy\{max-width:640px\}.hero h1\{font-size:clamp(2.9rem,9vw,6.4rem);margin:1.4rem 0 1.6rem\}.hero .lead\{font-size:clamp(1.05rem,1.4vw,1.2rem)\}\
-.hero-cta\{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center;margin-top:2.2rem\}.hero-meta\{display:flex;flex-wrap:wrap;align-items:center;gap:1.2rem 2rem;margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid var(--line-soft)\}.stars\{color:var(--gold);letter-spacing:.15em\}.hero-meta .m-item\{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)\}.hero-meta .m-item b\{display:block;font-family:var(--serif);font-size:1.5rem;color:var(--ink);font-weight:600\}.hero-meta .m-item .ig\{color:var(--gold-ink)\}\
-.hero-visual\{position:relative;justify-self:center;width:min(100%,460px)\}.arch\{border-radius:240px 240px 18px 18px;overflow:hidden;box-shadow:var(--shadow);position:relative;background:var(--sand)\}.arch img\{width:100%;aspect-ratio:4/5;object-fit:cover;transform:scale(1.04);transition:transform 1.4s var(--ease)\}.hero-visual:hover .arch img\{transform:scale(1)\}.arch::after\{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);border-radius:inherit;pointer-events:none\}\
-.hero-visual .float-img\{position:absolute;width:42%;left:-14%;bottom:-6%;border-radius:120px 120px 14px 14px;overflow:hidden;box-shadow:var(--shadow);border:5px solid var(--cream);z-index:3\}.hero-visual .float-img img\{aspect-ratio:1/1;object-fit:cover;width:100%\}\
-.badge\{position:absolute;top:-26px;right:-18px;width:120px;height:120px;z-index:4;display:grid;place-items:center\}.badge svg\{width:100%;height:100%;animation:spin 20s linear infinite\}.badge svg text\{font-size:12.5px;letter-spacing:3.2px;fill:var(--gold-ink);text-transform:uppercase\}.badge .bc\{position:absolute;font-size:1.5rem;color:var(--gold)\}@keyframes spin\{to\{transform:rotate(360deg)\}\}\
-@media(min-width:900px)\{.hero .wrap\{grid-template-columns:1.05fr .95fr\}\}\
-.marquee\{background:var(--ink);color:var(--cream);overflow:hidden;padding:1.1rem 0;border-block:1px solid rgba(224,196,131,.18)\}.marquee .track\{display:flex;white-space:nowrap;width:max-content;animation:mar 32s linear infinite\}.marquee span\{font-family:var(--serif);font-size:clamp(1.4rem,3vw,2.1rem);font-style:italic;padding:0 1.6rem;display:inline-flex;align-items:center;gap:1.6rem\}.marquee span::after\{content:"\uc0\u10022 ";color:var(--gold-2);font-style:normal;font-size:.8em\}@keyframes mar\{to\{transform:translateX(-50%)\}\}\
-.sec-head\{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.4rem 2rem;margin-bottom:clamp(2.4rem,5vw,3.6rem)\}.sec-head h2\{font-size:clamp(2.4rem,6vw,4.4rem);margin-top:1rem\}.sec-head .note\{max-width:34ch;font-size:.95rem;color:var(--muted)\}\
-.menu\{padding:var(--sec) 0\}.menu-cols\{display:grid;gap:3rem\}.menu-col h3\{font-family:var(--serif);font-size:1.9rem;font-weight:500;padding-bottom:1rem;margin-bottom:1.4rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center\}.menu-col h3 small\{font-family:var(--sans);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)\}\
-.menu-row\{padding:1.05rem 0;border-bottom:1px solid var(--line-soft);transition:padding-left .45s var(--ease)\}.menu-row:hover\{padding-left:.6rem\}.mr-top\{display:flex;align-items:baseline;gap:.8rem\}.mr-name\{font-family:var(--serif);font-size:1.32rem;font-weight:500;display:inline-flex;align-items:center;gap:.5rem\}.mr-name::before\{content:"\uc0\u10022 ";color:var(--gold);font-size:.6rem;opacity:0;transform:scale(.4);transition:.4s\}.menu-row:hover .mr-name::before\{opacity:1;transform:scale(1)\}.mr-dots\{flex:1;border-bottom:1px dotted var(--line);transform:translateY(-5px)\}.mr-price\{font-family:var(--serif);font-size:1.2rem;font-weight:600;color:var(--gold-ink)\}.mr-desc\{font-size:.82rem;color:var(--muted);margin-top:.25rem;max-width:40ch\}.tag\{font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;background:var(--gold-grad);color:var(--ink);padding:.2rem .55rem;border-radius:100px;margin-left:.6rem\}\
-.addons\{margin-top:3rem;padding-top:2.2rem;border-top:1px solid var(--line-soft);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center\}.addons .lbl\{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-right:.6rem\}.chip\{font-size:.8rem;border:1px solid var(--line);border-radius:100px;padding:.5rem 1rem;transition:.4s\}.chip b\{color:var(--gold-ink);font-weight:500\}.chip:hover\{background:var(--ink);color:var(--cream)\}.chip:hover b\{color:var(--gold-2)\}\
-@media(min-width:860px)\{.menu-cols\{grid-template-columns:1fr 1fr;gap:4rem\}\}\
-.gallery\{padding:var(--sec) 0;background:var(--sand-soft)\}.masonry\{columns:1;column-gap:1.1rem\}.g-item\{break-inside:avoid;margin-bottom:1.1rem;position:relative;border-radius:14px;overflow:hidden;cursor:pointer;background:var(--sand);box-shadow:0 18px 40px -30px rgba(36,28,23,.5)\}.g-item img\{width:100%;transition:transform 1s var(--ease)\}.g-item:hover img\{transform:scale(1.06)\}\
-.g-cap\{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:1.2rem;background:linear-gradient(to top,rgba(20,15,12,.78),rgba(20,15,12,0) 55%);opacity:0;transform:translateY(12px);transition:.5s var(--ease)\}.g-item:hover .g-cap\{opacity:1;transform:none\}.g-cap .t\{font-family:var(--serif);font-size:1.4rem;color:var(--cream)\}.g-cap .s\{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);margin-top:.2rem\}.g-cap .view\{position:absolute;top:1.1rem;right:1.1rem;width:38px;height:38px;border-radius:50%;background:var(--gold-grad);color:var(--ink);display:grid;place-items:center;transform:rotate(-45deg)\}.g-cap .view span\{transform:rotate(45deg)\}.g-num\{position:absolute;top:1rem;left:1rem;font-family:var(--serif);font-style:italic;color:rgba(255,255,255,.85)\}\
-@media(min-width:640px)\{.masonry\{columns:2\}\}@media(min-width:1000px)\{.masonry\{columns:3\}\}@media(hover:none)\{.g-cap\{opacity:1;transform:none\}\}\
-.about\{padding:var(--sec) 0;background:var(--rose)\}.about .grid\{display:grid;gap:clamp(2.4rem,5vw,4rem);align-items:center\}.about-visual\{position:relative;width:min(100%,420px);justify-self:center\}.about-visual .frame\{position:absolute;inset:-14px;border:1px solid var(--line);border-radius:240px 240px 18px 18px;z-index:-1\}.about-visual .cert\{position:absolute;bottom:1.4rem;left:1.4rem;background:rgba(244,237,227,.92);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;max-width:200px\}.about-visual .cert b\{font-family:var(--serif);font-size:1.05rem;display:block\}.about-visual .cert span\{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink)\}\
-.about-copy h2\{font-size:clamp(2.3rem,5.5vw,4rem);margin:1rem 0 1.4rem\}.about-copy p\{color:var(--ink-soft);margin-bottom:1.1rem;max-width:52ch\}.about-copy .quote\{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.4vw,1.7rem);color:var(--gold-ink);border-left:2px solid var(--gold);padding-left:1.2rem;margin:1.8rem 0\}\
-.stats\{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem;padding-top:2rem;border-top:1px solid var(--line)\}.stat b\{font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);font-weight:600;display:block;line-height:1\}.stat span\{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)\}\
-.about-cta\{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center;margin-top:2.2rem\}.ig-pill\{display:inline-flex;align-items:center;gap:.6rem;font-size:.8rem;border:1px solid var(--line);border-radius:100px;padding:.6rem 1.1rem;transition:.4s\}.ig-pill:hover\{background:var(--ink);color:var(--cream)\}.ig-pill .ic\{width:18px;height:18px\}\
-@media(min-width:900px)\{.about .grid\{grid-template-columns:.9fr 1.1fr\}\}\
-.visit\{background:var(--ink);color:var(--cream);padding:var(--sec) 0;position:relative;overflow:hidden\}.visit .wm\{position:absolute;bottom:-6%;left:-2%;font-family:var(--serif);font-style:italic;font-size:clamp(6rem,22vw,18rem);color:transparent;-webkit-text-stroke:1px rgba(224,196,131,.12);pointer-events:none;z-index:0\}.visit .grid\{position:relative;z-index:2;display:grid;gap:clamp(2.4rem,5vw,4rem);align-items:center\}.visit h2\{font-size:clamp(2.6rem,7vw,5rem);margin:1.2rem 0 1.4rem\}.visit .cta-row\{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.2rem\}\
-.visit .info\{border:1px solid rgba(224,196,131,.25);border-radius:18px;padding:clamp(1.6rem,4vw,2.6rem);background:rgba(255,255,255,.02)\}.visit .info .irow\{display:flex;gap:1rem;padding:1.1rem 0;border-bottom:1px solid rgba(224,196,131,.14)\}.visit .info .irow:last-child\{border-bottom:none\}.visit .info .ic\{width:22px;height:22px;flex:none;color:var(--gold-2);margin-top:2px\}.visit .info .k\{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);margin-bottom:.2rem\}.visit .info .v\{font-family:var(--serif);font-size:1.2rem;line-height:1.4\}.visit .info .v a:hover\{color:var(--gold-2)\}.hours\{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1.4rem;font-size:.95rem\}.hours .d\{color:var(--muted-dark)\}.hours .h\{text-align:right\}.hours .closed\{color:var(--rose-deep)\}\
-@media(min-width:900px)\{.visit .grid\{grid-template-columns:1.1fr .9fr\}\}\
-.footer\{background:var(--ink);color:var(--cream);padding:clamp(3rem,6vw,5rem) 0 2rem;border-top:1px solid rgba(224,196,131,.18)\}.f-top\{display:grid;gap:2.4rem;padding-bottom:2.6rem;border-bottom:1px solid rgba(224,196,131,.14)\}.f-brand .l1\{font-family:var(--serif);font-size:2.4rem;letter-spacing:.1em\}.f-brand .l1 b\{color:var(--gold-2)\}.f-brand p\{color:var(--muted-dark);max-width:34ch;margin-top:.8rem;font-size:.92rem\}.f-col h5\{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2);margin-bottom:1.1rem\}.f-col a,.f-col li\{display:block;color:var(--muted-dark);font-size:.92rem;padding:.32rem 0;transition:.3s\}.f-col a:hover\{color:var(--cream);padding-left:.4rem\}.f-bottom\{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;padding-top:1.8rem;font-size:.72rem;letter-spacing:.1em;color:var(--muted-dark);text-transform:uppercase\}.f-bottom .toTop\{cursor:pointer\}.f-bottom .toTop:hover\{color:var(--gold-2)\}\
-@media(min-width:760px)\{.f-top\{grid-template-columns:1.4fr 1fr 1fr 1fr\}\}\
-.float-book\{position:fixed;left:50%;bottom:1.1rem;transform:translate(-50%,140%);z-index:65;display:none;align-items:center;gap:.6rem;background:var(--ink);color:var(--cream);border:1px solid var(--gold);border-radius:100px;padding:.9rem 1.6rem;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;box-shadow:var(--shadow);transition:transform .6s var(--ease)\}.float-book .dot\{width:7px;height:7px;border-radius:50%;background:var(--gold-2);animation:pulse 2s infinite\}.float-book.show\{transform:translate(-50%,0)\}@keyframes pulse\{0%\{box-shadow:0 0 0 0 rgba(224,196,131,.5)\}70%\{box-shadow:0 0 0 9px rgba(224,196,131,0)\}100%\{box-shadow:0 0 0 0 rgba(224,196,131,0)\}\}\
-@media(max-width:820px)\{.float-book\{display:inline-flex\}\}\
-.lightbox\{position:fixed;inset:0;z-index:10000;background:rgba(20,15,12,.94);backdrop-filter:blur(6px);display:grid;place-items:center;padding:1.5rem;opacity:0;visibility:hidden;transition:.5s var(--ease)\}.lightbox.open\{opacity:1;visibility:visible\}.lb-stage\{max-width:min(1000px,92vw);width:100%;text-align:center\}.lb-stage img\{max-height:74vh;width:auto;max-width:100%;margin:0 auto;border-radius:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8)\}.lb-cap\{color:var(--cream);margin-top:1.2rem\}.lb-cap .t\{font-family:var(--serif);font-size:1.6rem\}.lb-cap .s\{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2);margin-top:.3rem\}\
-.lb-btn\{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid rgba(224,196,131,.4);color:var(--cream);font-size:1.4rem;display:grid;place-items:center;transition:.4s\}.lb-btn:hover\{background:var(--gold);color:var(--ink)\}.lb-prev\{left:1.2rem\}.lb-next\{right:1.2rem\}.lb-close\{position:absolute;top:1.4rem;right:1.4rem;width:48px;height:48px;border-radius:50%;border:1px solid rgba(224,196,131,.4);color:var(--cream);font-size:1.3rem;display:grid;place-items:center;transition:.4s\}.lb-close:hover\{background:var(--gold);color:var(--ink);transform:rotate(90deg)\}\
-@media(max-width:640px)\{.lb-btn\{top:auto;bottom:1.2rem;transform:none\}\}\
-.js .reveal\{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)\}.js .reveal.in\{opacity:1;transform:none\}.js .reveal-l\{transform:translateX(-34px)\}.js .reveal-r\{transform:translateX(34px)\}.js .reveal-l.in,.js .reveal-r.in\{transform:none\}\
-@media(prefers-reduced-motion:reduce)\{*,*::before,*::after\{animation-duration:.001ms!important;transition-duration:.001ms!important\}.js .reveal\{opacity:1;transform:none\}.marquee .track,.badge svg\{animation:none\}\}\
-</style>\
-</head>\
-<body>\
-<a class="skip" href="#main">Skip to content</a>\
-<div class="progress" id="progress"></div>\
-<div class="topbar">Now booking this month <span class="dot">\uc0\u10022 </span> Walk-ins welcome <span class="dot">\u10022 </span> <span>@montseestrada30</span></div>\
-<header class="header" id="header">\
-  <div class="wrap">\
-    <a href="#top" class="logo"><span class="l1">VAL<b>MONT</b></span><span class="l2">Nails &amp; Lashes</span></a>\
-    <nav class="nav" aria-label="Primary"><a href="#work">The Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#visit">Visit</a></nav>\
-    <a href="#visit" class="btn btn-primary head-cta">Book Now <span class="arw">\uc0\u8594 </span></a>\
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mmenu"><span></span></button>\
-  </div>\
-</header>\
-<div class="mmenu" id="mmenu" aria-hidden="true">\
-  <nav class="mnav" aria-label="Mobile">\
-    <a href="#work" style="transition-delay:.15s"><i>01</i>The Work</a>\
-    <a href="#services" style="transition-delay:.22s"><i>02</i>Services</a>\
-    <a href="#about" style="transition-delay:.29s"><i>03</i>About</a>\
-    <a href="#visit" style="transition-delay:.36s"><i>04</i>Visit</a>\
-  </nav>\
-  <div class="mfoot">\
-    <a href="#visit" class="btn btn-primary" style="justify-content:center">Book an appointment <span class="arw">\uc0\u8594 </span></a>\
-    <div class="row"><div class="socials"><a href="https://instagram.com/montseestrada30" target="_blank" rel="noopener">Instagram</a><a href="tel:+15550123456">Call</a></div><span style="font-size:.7rem;letter-spacing:.16em;color:var(--muted-dark)">Certified Artist</span></div>\
-  </div>\
-</div>\
-<main id="main">\
-<section class="hero" id="top">\
-  <span class="hero-watermark" aria-hidden="true">Valmont</span>\
-  <div class="wrap">\
-    <div class="hero-copy">\
-      <span class="kicker reveal">Nails \'b7 Lashes \'b7 Art</span>\
-      <h1 class="serif reveal" style="--d:.08s">Soft glam,<br><span class="it">sculpted</span> by hand.</h1>\
-      <p class="lead reveal" style="--d:.16s">A boutique studio where precision meets artistry \'97 certified acrylic work, spa pedicures and lash extensions, tailored to your hands and your story.</p>\
-      <div class="hero-cta reveal" style="--d:.24s"><a href="#visit" class="btn btn-primary">Book an appointment <span class="arw">\uc0\u8594 </span></a><a href="#work" class="tlink">View the work <span class="arw">\u8594 </span></a></div>\
-      <div class="hero-meta reveal" style="--d:.32s"><div class="m-item"><span class="stars">\uc0\u9733 \u9733 \u9733 \u9733 \u9733 </span><b>5.0</b>Client rating</div><div class="m-item"><b>500+</b>Local clients</div><div class="m-item">Follow the studio<br><span class="ig">@montseestrada30</span></div></div>\
-    </div>\
-    <div class="hero-visual reveal-r reveal" style="--d:.2s">\
-      <div class="badge" aria-hidden="true"><svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">VALMONT STUDIO \'b7 CERTIFIED ARTIST \'b7 EST. 2019 \'b7 </textPath></text></svg><span class="bc">\uc0\u10022 </span></div>\
-      <div class="arch"><img src="work-02.jpg" alt="Sage green and nude nails with gold leaf veining" fetchpriority="high" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-02.jpg</b></div>'"></div>\
-      <div class="float-img"><img src="work-07.jpg" alt="Iridescent chrome nails with gold foil" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save as<br><b>work-07.jpg</b></div>'"></div>\
-    </div>\
-  </div>\
-</section>\
-<div class="marquee" aria-hidden="true"><div class="track"><span>Acrylic Sets</span><span>Spa Pedicure</span><span>Lash Extensions</span><span>Hand-Painted Art</span><span>Certified Care</span><span>Acrylic Sets</span><span>Spa Pedicure</span><span>Lash Extensions</span><span>Hand-Painted Art</span><span>Certified Care</span></div></div>\
-<section class="menu" id="services">\
-  <div class="wrap">\
-    <div class="sec-head"><div><span class="kicker reveal">02 \'97 Services</span><h2 class="serif reveal" style="--d:.08s">The Menu</h2></div><p class="note reveal" style="--d:.16s">Transparent pricing, no surprises. Add art or extra care to any service.</p></div>\
-    <div class="menu-cols">\
-      <div class="menu-col reveal" style="--d:.05s"><h3>Nails &amp; Spa <small>Hands \'b7 Feet</small></h3><ul>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Acrylic Full Set <span class="tag">Most loved</span></span><span class="mr-dots"></span><span class="mr-price">$65</span></div><p class="mr-desc">Sculpted, feather-light and built to last weeks.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Acrylic Fill / Rebalance</span><span class="mr-dots"></span><span class="mr-price">$50</span></div><p class="mr-desc">Every 2\'963 weeks to keep the shape flawless.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Gel / Soak-Off</span><span class="mr-dots"></span><span class="mr-price">$45</span></div><p class="mr-desc">A clean, glossy natural finish.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Spa Pedicure</span><span class="mr-dots"></span><span class="mr-price">$60</span></div><p class="mr-desc">Soak, exfoliate, massage and a perfect polish.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Deluxe Spa Pedicure <span class="tag">Signature</span></span><span class="mr-dots"></span><span class="mr-price">$75</span></div><p class="mr-desc">Adds a hot-stone massage and extended care.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Hand-Painted Art</span><span class="mr-dots"></span><span class="mr-price">from $10</span></div><p class="mr-desc">Per nail \'97 florals, chrome, foil, ombr\'e9 &amp; more.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">3D / Sculpted Art</span><span class="mr-dots"></span><span class="mr-price">from $25</span></div><p class="mr-desc">Dimensional charms, florals and gems.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Removal</span><span class="mr-dots"></span><span class="mr-price">$15</span></div><p class="mr-desc">Gentle, cuticle-safe removal.</p></li>\
-      </ul></div>\
-      <div class="menu-col reveal" style="--d:.12s"><h3>Lashes &amp; Brows <small>Eyes</small></h3><ul>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Classic Set</span><span class="mr-dots"></span><span class="mr-price">$120</span></div><p class="mr-desc">One lash, one extension \'97 soft and natural.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Volume Set <span class="tag">Most loved</span></span><span class="mr-dots"></span><span class="mr-price">$150</span></div><p class="mr-desc">Feathered fans for fullness and drama.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Hybrid / Mix</span><span class="mr-dots"></span><span class="mr-price">$140</span></div><p class="mr-desc">A blend of classic and volume for dimension.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Lash Fill</span><span class="mr-dots"></span><span class="mr-price">$70</span></div><p class="mr-desc">Refresh your set every 2\'963 weeks.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Lash Lift + Tint</span><span class="mr-dots"></span><span class="mr-price">$95</span></div><p class="mr-desc">Your own lashes, curled and darkened.</p></li>\
-        <li class="menu-row"><div class="mr-top"><span class="mr-name">Brow Lamination</span><span class="mr-dots"></span><span class="mr-price">$85</span></div><p class="mr-desc">Full, brushed-up and beautifully set.</p></li>\
-      </ul></div>\
-    </div>\
-    <div class="addons reveal"><span class="lbl">Add-ons</span><span class="chip">Gel Overlay <b>+$15</b></span><span class="chip">Paraffin Treatment <b>+$15</b></span><span class="chip">Hand Massage <b>+$10</b></span><span class="chip">Rhinestones <b>from $5</b></span><span class="chip">Chrome / Cat-Eye <b>+$10</b></span></div>\
-  </div>\
-</section>\
-<section class="gallery" id="work">\
-  <div class="wrap">\
-    <div class="sec-head"><div><span class="kicker reveal">01 \'97 The Work</span><h2 class="serif reveal" style="--d:.08s">Real sets, <span class="it">real hands</span></h2></div><p class="note reveal" style="--d:.16s">Recent client work \'97 tap any set to view it up close.</p></div>\
-    <div class="masonry">\
-      <figure class="g-item reveal" data-title="Dragon Fruit &amp; Tiger" data-tag="3D Sculpted Art"><span class="g-num">01</span><img src="work-01.jpg" alt="Hot pink nails with 3D dragon fruit, tiger stripes and gold beads" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-01.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Dragon Fruit &amp; Tiger</span><span class="s">3D Sculpted Art</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Sage &amp; Gold Leaf" data-tag="Organic Chrome" style="--d:.05s"><span class="g-num">02</span><img src="work-02.jpg" alt="Sage green and nude nails with gold leaf veining" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-02.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Sage &amp; Gold Leaf</span><span class="s">Organic Chrome</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Cobalt Bloom" data-tag="3D Florals" style="--d:.1s"><span class="g-num">03</span><img src="work-03.jpg" alt="Blue and white coffin nails with 3D flowers and gold dots" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-03.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Cobalt Bloom</span><span class="s">3D Florals</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Sunset Ombr\'e9" data-tag="Glossy Gradient" style="--d:.15s"><span class="g-num">04</span><img src="work-04.jpg" alt="Teal and orange ombr\'e9 glossy nails" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-04.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Sunset Ombr\'e9</span><span class="s">Glossy Gradient</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Hearts &amp; Stars" data-tag="Hand-Painted Detail" style="--d:.2s"><span class="g-num">05</span><img src="work-05.jpg" alt="White and pink nails with hearts, stars, glitter and rhinestones" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-05.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Hearts &amp; Stars</span><span class="s">Hand-Painted Detail</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Ladybug Macro" data-tag="Sculpted Charm" style="--d:.05s"><span class="g-num">06</span><img src="work-06.jpg" alt="Macro of a yellow nail with a 3D ladybug charm" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-06.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Ladybug Macro</span><span class="s">Sculpted Charm</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Liquid Chrome" data-tag="Iridescent Foil" style="--d:.1s"><span class="g-num">07</span><img src="work-07.jpg" alt="Iridescent chrome nails with gold foil" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-07.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Liquid Chrome</span><span class="s">Iridescent Foil</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Amber &amp; Pearl" data-tag="Tortoise + Gold" style="--d:.15s"><span class="g-num">08</span><img src="work-08.jpg" alt="Amber tortoise nails with pearl and gold accents" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-08.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Amber &amp; Pearl</span><span class="s">Tortoise + Gold</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Teal Dusk" data-tag="Ombr\'e9 Set" style="--d:.2s"><span class="g-num">09</span><img src="work-09.jpg" alt="Teal and orange ombr\'e9 nails on both hands" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-09.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Teal Dusk</span><span class="s">Ombr\'e9 Set</span></figcaption></figure>\
-      <figure class="g-item reveal" data-title="Bare Pink" data-tag="Clean Natural" style="--d:.05s"><span class="g-num">10</span><img src="work-10.jpg" alt="Natural nude nails with soft pink tips" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-10.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Bare Pink</span><span class="s">Clean Natural</span></figcaption></figure>\
-    </div>\
-  </div>\
-</section>\
-<section class="about" id="about">\
-  <div class="wrap grid">\
-    <div class="about-visual reveal-l reveal"><span class="frame" aria-hidden="true"></span><div class="arch"><img src="work-08.jpg" alt="Close view of hands with amber and gold nail art" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Save this photo as<br><b>work-08.jpg</b></div>'"></div><div class="cert"><span>Certified</span><b>Nail &amp; Lash Artist</b></div></div>\
-    <div class="about-copy">\
-      <span class="kicker reveal">03 \'97 The Artist</span>\
-      <h2 class="serif reveal" style="--d:.08s">Meet <span class="it">Montse</span> Estrada</h2>\
-      <p class="reveal" style="--d:.14s">Valmont Studio is the work of certified nail and lash technician Montse Estrada. Trained in structured acrylic application, advanced hand-painted art and lash artistry, Montse treats every set as a collaboration \'97 listening first, then designing something that feels unmistakably yours.</p>\
-      <p class="reveal" style="--d:.2s">From a single elegant accent nail to a full 3D statement, the focus is the same: clean prep, careful application and a finish that photographs as beautifully as it feels in the hand.</p>\
-      <blockquote class="quote reveal" style="--d:.26s">"Nails should feel like an extension of you \'97 never a template."</blockquote>\
-      <div class="stats reveal" style="--d:.3s"><div class="stat"><b data-count="5" data-suffix="+">0</b><span>Years of craft</span></div><div class="stat"><b data-count="3" data-suffix="k+">0</b><span>Sets sculpted</span></div><div class="stat"><b data-count="500" data-suffix="+">0</b><span>Local clients</span></div></div>\
-      <div class="about-cta reveal" style="--d:.34s"><a href="#visit" class="btn btn-primary">Book with Montse <span class="arw">\uc0\u8594 </span></a><a href="https://instagram.com/montseestrada30" target="_blank" rel="noopener" class="ig-pill"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@montseestrada30</a></div>\
-    </div>\
-  </div>\
-</section>\
-<section class="visit on-dark" id="visit">\
-  <span class="wm" aria-hidden="true">Valmont</span>\
-  <div class="wrap grid">\
-    <div>\
-      <span class="kicker on-dark reveal">04 \'97 Visit</span>\
-      <h2 class="serif reveal" style="--d:.08s">Reserve your <span class="it">chair</span></h2>\
-      <p class="lead reveal" style="--d:.14s">Appointments are by reservation to give every client full, unhurried attention. Walk-ins are welcome when a chair is open. Send a DM or call to book \'97 we'll confirm your time and talk through your set.</p>\
-      <div class="cta-row reveal" style="--d:.2s"><a href="https://instagram.com/montseestrada30" target="_blank" rel="noopener" class="btn btn-primary">Book on Instagram <span class="arw">\uc0\u8594 </span></a><a href="tel:+15550123456" class="btn btn-ghost on-dark">Call the studio</a></div>\
-    </div>\
-    <div class="info reveal-r reveal" style="--d:.16s">\
-      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><div class="k">Studio</div><div class="v">Valmont Studio Nails &amp; Lashes<br>123 Beauty Lane, Suite 4 \'b7 Your City</div></div></div>\
-      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><div class="k">Hours</div><div class="v"><div class="hours"><span class="d">Tue \'96 Sat</span><span class="h">10am \'96 7pm</span><span class="d">Sun \'96 Mon</span><span class="h closed">Closed</span></div></div></div></div>\
-      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5c0 8 7 15 15 15l0-3-4-2-2 2c-3-1.5-5.5-4-7-7l2-2-2-4z"/></svg><div><div class="k">Book / Enquire</div><div class="v"><a href="tel:+15550123456">(555) 012\uc0\u8209 3456</a> \'b7 <a href="https://instagram.com/montseestrada30" target="_blank" rel="noopener">@montseestrada30</a></div></div></div>\
-    </div>\
-  </div>\
-</section>\
-</main>\
-<footer class="footer">\
-  <div class="wrap">\
-    <div class="f-top">\
-      <div class="f-brand"><div class="l1">VAL<b>MONT</b></div><p>A boutique nail &amp; lash studio. Soft glam, sculpted by hand \'97 certified care for your hands and your eyes.</p></div>\
-      <div class="f-col"><h5>Explore</h5><a href="#work">The Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#visit">Visit</a></div>\
-      <div class="f-col"><h5>Services</h5><a href="#services">Acrylic &amp; Gel</a><a href="#services">Spa Pedicure</a><a href="#services">Lash Extensions</a><a href="#services">Hand-Painted Art</a></div>\
-      <div class="f-col"><h5>Connect</h5><a href="https://instagram.com/montseestrada30" target="_blank" rel="noopener">Instagram</a><a href="tel:+15550123456">Call</a><a href="#visit">Book Now</a></div>\
-    </div>\
-    <div class="f-bottom"><span>\'a9 <span id="yr"></span> Valmont Studio \'b7 All rights reserved</span><span class="toTop" id="toTop">Back to top \uc0\u8593 </span></div>\
-  </div>\
-</footer>\
-<a href="#visit" class="float-book" id="floatBook"><span class="dot"></span> Book Now</a>\
-<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">\
-  <button class="lb-close" id="lbClose" aria-label="Close">\uc0\u10005 </button>\
-  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous">\'8b</button>\
-  <div class="lb-stage"><img id="lbImg" src="" alt=""><div class="lb-cap"><div class="t" id="lbTitle"></div><div class="s" id="lbTag"></div></div></div>\
-  <button class="lb-btn lb-next" id="lbNext" aria-label="Next">\'9b</button>\
-</div>\
-<script>\
-document.documentElement.classList.replace('no-js','js');\
-var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;\
-document.getElementById('yr').textContent=new Date().getFullYear();\
-var header=document.getElementById('header'),progress=document.getElementById('progress'),floatBook=document.getElementById('floatBook');\
-function onScroll()\{var y=window.scrollY;header.classList.toggle('scrolled',y>40);var h=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(h>0?(y/h*100):0)+'%';floatBook.classList.toggle('show',y>600&&y<h-700);\}\
-window.addEventListener('scroll',onScroll,\{passive:true\});onScroll();\
-var burger=document.getElementById('burger'),mmenu=document.getElementById('mmenu');\
-function toggleMenu(open)\{document.body.classList.toggle('menu-open',open);document.body.classList.toggle('no-scroll',open);burger.setAttribute('aria-expanded',open);mmenu.setAttribute('aria-hidden',!open);\}\
-burger.addEventListener('click',function()\{toggleMenu(!document.body.classList.contains('menu-open'));\});\
-mmenu.querySelectorAll('a').forEach(function(a)\{a.addEventListener('click',function()\{toggleMenu(false);\});\});\
-var io=new IntersectionObserver(function(es)\{es.forEach(function(e)\{if(e.isIntersecting)\{e.target.classList.add('in');io.unobserve(e.target);\}\});\},\{threshold:.12,rootMargin:'0px 0px -8% 0px'\});\
-document.querySelectorAll('.reveal').forEach(function(el)\{io.observe(el);\});\
-document.querySelectorAll('[data-count]').forEach(function(el)\{var t=+el.dataset.count,suf=el.dataset.suffix||'';if(reduce)\{el.textContent=t+suf;return;\}var so=new IntersectionObserver(function(es)\{es.forEach(function(e)\{if(e.isIntersecting)\{var s=0,step=Math.max(1,Math.ceil(t/40));var iv=setInterval(function()\{s+=step;if(s>=t)\{s=t;clearInterval(iv);\}el.textContent=s+suf;\},30);so.unobserve(e.target);\}\});\},\{threshold:.5\});so.observe(el);\});\
-var items=[].slice.call(document.querySelectorAll('.g-item')),lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbT=document.getElementById('lbTitle'),lbS=document.getElementById('lbTag'),idx=0;\
-function show(i)\{idx=(i+items.length)%items.length;var it=items[idx];var img=it.querySelector('img');lbImg.src=img?img.src:'';lbImg.alt=img?img.alt:'';lbT.textContent=it.dataset.title||'';lbS.textContent=it.dataset.tag||'';\}\
-function openLb(i)\{show(i);lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.classList.add('no-scroll');\}\
-function closeLb()\{lb.classList.remove('open');lb.setAttribute('aria-hidden','true');document.body.classList.remove('no-scroll');\}\
-items.forEach(function(it,i)\{it.addEventListener('click',function()\{openLb(i);\});\});\
-document.getElementById('lbClose').addEventListener('click',closeLb);\
-document.getElementById('lbPrev').addEventListener('click',function()\{show(idx-1);\});\
-document.getElementById('lbNext').addEventListener('click',function()\{show(idx+1);\});\
-lb.addEventListener('click',function(e)\{if(e.target===lb)closeLb();\});\
-document.addEventListener('keydown',function(e)\{if(!lb.classList.contains('open'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1);\});\
-document.getElementById('toTop').addEventListener('click',function()\{window.scrollTo(\{top:0,behavior:reduce?'auto':'smooth'\});\});\
-</script>\
-</body>\
-</html>}
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Valmont Studio — Uñas y Pestañas</title>
+<meta name="description" content="Valmont Studio Uñas y Pestañas — acrílico certificado, pedicuras spa, extensiones de pestañas y arte pintado a mano. Agenda tu cita." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F4EDE3;--cream-2:#EFE6D8;--sand:#E7DAC6;--sand-soft:#F1E9DC;--rose:#F1E1DB;--rose-deep:#C98B82;--ink:#241C17;--ink-soft:#4A3E35;--muted:#6E6156;--muted-dark:#C9BBA9;--gold:#B08A3E;--gold-ink:#8C6E2C;--gold-2:#E0C483;--gold-grad:linear-gradient(120deg,#C9A24B,#E7CE8E 48%,#B08A3E);--line:rgba(176,138,62,.32);--line-soft:rgba(176,138,62,.18);--shadow:0 30px 60px -30px rgba(36,28,23,.45);--serif:"Cormorant Garamond",Georgia,serif;--sans:"Jost",system-ui,sans-serif;--ease:cubic-bezier(.16,1,.3,1);--wrap:1280px;--pad:clamp(1.25rem,5vw,4rem);--sec:clamp(4.5rem,10vw,8.5rem)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}body{font-family:var(--sans);font-weight:300;background:var(--cream);color:var(--ink);line-height:1.6;font-size:clamp(1rem,1.05vw,1.075rem);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}a{color:inherit;text-decoration:none}ul{list-style:none}button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+::selection{background:var(--gold);color:#fff}
+body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:var(--pad)}section{scroll-margin-top:96px;position:relative}
+.kicker{font-weight:400;font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-ink);display:inline-flex;align-items:center;gap:.9rem}.kicker::before{content:"";width:34px;height:1px;background:var(--gold)}.kicker.on-dark{color:var(--gold-2)}
+.serif{font-family:var(--serif);font-weight:500;line-height:1.02}.it{font-style:italic;font-weight:500;color:var(--gold-ink)}.on-dark .it{color:var(--gold-2)}.lead{color:var(--muted);max-width:46ch}.on-dark .lead{color:var(--muted-dark)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--cream);padding:.7rem 1rem;z-index:10000}.skip:focus{left:0}
+.missing{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;aspect-ratio:4/5;min-height:200px;width:100%;background:var(--sand-soft);border:1.5px dashed var(--line);border-radius:14px;color:var(--muted);font-size:.8rem;letter-spacing:.04em;text-align:center;padding:1rem}.missing b{color:var(--gold-ink);font-family:var(--serif);font-size:1.1rem}
+.btn{display:inline-flex;align-items:center;gap:.7rem;font-weight:400;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;padding:1.05rem 1.9rem;border-radius:100px;position:relative;overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s var(--ease);white-space:nowrap}.btn .arw{font-family:var(--serif);font-size:1.1rem;transition:transform .5s var(--ease)}.btn:hover .arw{transform:translateX(5px)}
+.btn-primary{background:var(--gold-grad);color:var(--ink);box-shadow:0 14px 30px -14px rgba(176,138,62,.7)}.btn-primary::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 32%,rgba(255,255,255,.55) 50%,transparent 68%);transform:translateX(-130%);transition:transform .85s var(--ease)}.btn-primary:hover{transform:translateY(-2px)}.btn-primary:hover::after{transform:translateX(130%)}
+.btn-ghost{border:1px solid var(--line)}.btn-ghost:hover{border-color:var(--gold);transform:translateY(-2px)}.btn-ghost.on-dark{border-color:rgba(224,196,131,.4);color:var(--cream)}
+.tlink{display:inline-flex;align-items:center;gap:.55rem;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;position:relative;padding-bottom:3px}.tlink::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--gold);transform:scaleX(.35);transform-origin:left;transition:transform .5s var(--ease)}.tlink:hover::after{transform:scaleX(1)}
+.progress{position:fixed;top:0;left:0;height:2px;width:0;background:var(--gold-grad);z-index:9999}
+.topbar{background:var(--ink);color:var(--cream);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;text-align:center;padding:.55rem var(--pad);z-index:60;position:relative}.topbar span{color:var(--gold-2)}.topbar .dot{color:var(--gold);margin:0 .9rem}
+.header{position:sticky;top:0;z-index:70;padding:1.1rem 0;transition:background .5s,box-shadow .5s,padding .5s}.header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}.header.scrolled{background:rgba(244,237,227,.86);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line-soft);padding:.7rem 0}
+.logo{display:flex;flex-direction:column;line-height:1;gap:.18rem}.logo .l1{font-family:var(--serif);font-size:1.65rem;font-weight:600;letter-spacing:.14em}.logo .l1 b{color:var(--gold-ink)}.logo .l2{font-size:.56rem;letter-spacing:.42em;text-transform:uppercase;color:var(--muted)}
+.nav{display:none;align-items:center;gap:2.2rem}.nav a{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;position:relative;padding:.3rem 0}.nav a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}.nav a:hover::after{transform:scaleX(1);transform-origin:left}
+.head-cta{display:none}.burger{width:44px;height:44px;display:grid;place-items:center;position:relative;z-index:80}.burger span{display:block;width:24px;height:1.5px;background:var(--ink);position:relative;transition:background .4s}.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:24px;height:1.5px;background:var(--ink);transition:transform .4s,top .4s}.burger span::before{top:-7px}.burger span::after{top:7px}
+body.menu-open .burger span{background:transparent}body.menu-open .burger span::before{top:0;transform:rotate(45deg)}body.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
+.mmenu{position:fixed;inset:0;z-index:75;background:var(--ink);color:var(--cream);display:flex;flex-direction:column;justify-content:space-between;padding:6rem var(--pad) 2.5rem;clip-path:circle(0 at calc(100% - 2.4rem) 2.4rem);transition:clip-path .8s var(--ease);visibility:hidden}body.menu-open .mmenu{clip-path:circle(150% at calc(100% - 2.4rem) 2.4rem);visibility:visible}
+.mmenu .mnav{display:flex;flex-direction:column;gap:.4rem}.mmenu .mnav a{font-family:var(--serif);font-size:clamp(2.4rem,11vw,4rem);font-weight:500;display:flex;align-items:baseline;gap:1rem;opacity:0;transform:translateY(20px);transition:opacity .6s var(--ease),transform .6s var(--ease),color .4s}body.menu-open .mmenu .mnav a{opacity:1;transform:none}.mmenu .mnav a i{font-style:normal;font-size:.7rem;letter-spacing:.2em;color:var(--gold-2)}.mmenu .mnav a:hover{color:var(--gold-2)}
+.mmenu .mfoot{display:flex;flex-direction:column;gap:1.4rem;border-top:1px solid rgba(224,196,131,.2);padding-top:1.6rem}.mmenu .mfoot .row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}.mmenu .mfoot .socials{display:flex;gap:1.4rem;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase}.mmenu .mfoot .socials a:hover{color:var(--gold-2)}
+body.no-scroll{overflow:hidden}
+.hero{position:relative;padding:clamp(2rem,6vw,4rem) 0 var(--sec);overflow:hidden}.hero-watermark{position:absolute;top:8%;right:-2%;font-family:var(--serif);font-size:clamp(8rem,30vw,26rem);line-height:1;color:transparent;-webkit-text-stroke:1px var(--line-soft);z-index:0;pointer-events:none}
+.hero .wrap{position:relative;z-index:2;display:grid;gap:clamp(2.5rem,5vw,4rem);align-items:center}.hero-copy{max-width:640px}.hero h1{font-size:clamp(2.9rem,9vw,6.4rem);margin:1.4rem 0 1.6rem}.hero .lead{font-size:clamp(1.05rem,1.4vw,1.2rem)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center;margin-top:2.2rem}.hero-meta{display:flex;flex-wrap:wrap;align-items:center;gap:1.2rem 2rem;margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid var(--line-soft)}.stars{color:var(--gold);letter-spacing:.15em}.hero-meta .m-item{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.hero-meta .m-item b{display:block;font-family:var(--serif);font-size:1.5rem;color:var(--ink);font-weight:600}.hero-meta .m-item .ig{color:var(--gold-ink)}
+.hero-visual{position:relative;justify-self:center;width:min(100%,460px)}.arch{border-radius:240px 240px 18px 18px;overflow:hidden;box-shadow:var(--shadow);position:relative;background:var(--sand)}.arch img{width:100%;aspect-ratio:4/5;object-fit:cover;transform:scale(1.04);transition:transform 1.4s var(--ease)}.hero-visual:hover .arch img{transform:scale(1)}.arch::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);border-radius:inherit;pointer-events:none}
+.hero-visual .float-img{position:absolute;width:42%;left:-14%;bottom:-6%;border-radius:120px 120px 14px 14px;overflow:hidden;box-shadow:var(--shadow);border:5px solid var(--cream);z-index:3}.hero-visual .float-img img{aspect-ratio:1/1;object-fit:cover;width:100%}
+.badge{position:absolute;top:-26px;right:-18px;width:120px;height:120px;z-index:4;display:grid;place-items:center}.badge svg{width:100%;height:100%;animation:spin 20s linear infinite}.badge svg text{font-size:12.5px;letter-spacing:2.6px;fill:var(--gold-ink);text-transform:uppercase}.badge .bc{position:absolute;font-size:1.5rem;color:var(--gold)}@keyframes spin{to{transform:rotate(360deg)}}
+@media(min-width:900px){.hero .wrap{grid-template-columns:1.05fr .95fr}}
+.marquee{background:var(--ink);color:var(--cream);overflow:hidden;padding:1.1rem 0;border-block:1px solid rgba(224,196,131,.18)}.marquee .track{display:flex;white-space:nowrap;width:max-content;animation:mar 32s linear infinite}.marquee span{font-family:var(--serif);font-size:clamp(1.4rem,3vw,2.1rem);font-style:italic;padding:0 1.6rem;display:inline-flex;align-items:center;gap:1.6rem}.marquee span::after{content:"✦";color:var(--gold-2);font-style:normal;font-size:.8em}@keyframes mar{to{transform:translateX(-50%)}}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.4rem 2rem;margin-bottom:clamp(2.4rem,5vw,3.6rem)}.sec-head h2{font-size:clamp(2.4rem,6vw,4.4rem);margin-top:1rem}.sec-head .note{max-width:34ch;font-size:.95rem;color:var(--muted)}
+.menu{padding:var(--sec) 0}.menu-cols{display:grid;gap:3rem}.menu-col h3{font-family:var(--serif);font-size:1.9rem;font-weight:500;padding-bottom:1rem;margin-bottom:1.4rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.menu-col h3 small{font-family:var(--sans);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.menu-row{padding:1.05rem 0;border-bottom:1px solid var(--line-soft);transition:padding-left .45s var(--ease)}.menu-row:hover{padding-left:.6rem}.mr-top{display:flex;align-items:baseline;gap:.8rem}.mr-name{font-family:var(--serif);font-size:1.32rem;font-weight:500;display:inline-flex;align-items:center;gap:.5rem}.mr-name::before{content:"✦";color:var(--gold);font-size:.6rem;opacity:0;transform:scale(.4);transition:.4s}.menu-row:hover .mr-name::before{opacity:1;transform:scale(1)}.mr-dots{flex:1;border-bottom:1px dotted var(--line);transform:translateY(-5px)}.mr-price{font-family:var(--serif);font-size:1.2rem;font-weight:600;color:var(--gold-ink)}.mr-desc{font-size:.82rem;color:var(--muted);margin-top:.25rem;max-width:40ch}.tag{font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;background:var(--gold-grad);color:var(--ink);padding:.2rem .55rem;border-radius:100px;margin-left:.6rem}
+.addons{margin-top:3rem;padding-top:2.2rem;border-top:1px solid var(--line-soft);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center}.addons .lbl{font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-right:.6rem}.chip{font-size:.8rem;border:1px solid var(--line);border-radius:100px;padding:.5rem 1rem;transition:.4s}.chip b{color:var(--gold-ink);font-weight:500}.chip:hover{background:var(--ink);color:var(--cream)}.chip:hover b{color:var(--gold-2)}
+@media(min-width:860px){.menu-cols{grid-template-columns:1fr 1fr;gap:4rem}}
+.gallery{padding:var(--sec) 0;background:var(--sand-soft)}.masonry{columns:1;column-gap:1.1rem}.g-item{break-inside:avoid;margin-bottom:1.1rem;position:relative;border-radius:14px;overflow:hidden;cursor:pointer;background:var(--sand);box-shadow:0 18px 40px -30px rgba(36,28,23,.5)}.g-item img{width:100%;transition:transform 1s var(--ease)}.g-item:hover img{transform:scale(1.06)}
+.g-cap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:1.2rem;background:linear-gradient(to top,rgba(20,15,12,.78),rgba(20,15,12,0) 55%);opacity:0;transform:translateY(12px);transition:.5s var(--ease)}.g-item:hover .g-cap{opacity:1;transform:none}.g-cap .t{font-family:var(--serif);font-size:1.4rem;color:var(--cream)}.g-cap .s{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);margin-top:.2rem}.g-cap .view{position:absolute;top:1.1rem;right:1.1rem;width:38px;height:38px;border-radius:50%;background:var(--gold-grad);color:var(--ink);display:grid;place-items:center;transform:rotate(-45deg)}.g-cap .view span{transform:rotate(45deg)}.g-num{position:absolute;top:1rem;left:1rem;font-family:var(--serif);font-style:italic;color:rgba(255,255,255,.85)}
+@media(min-width:640px){.masonry{columns:2}}@media(min-width:1000px){.masonry{columns:3}}@media(hover:none){.g-cap{opacity:1;transform:none}}
+.about{padding:var(--sec) 0;background:var(--rose)}.about .grid{display:grid;gap:clamp(2.4rem,5vw,4rem);align-items:center}.about-visual{position:relative;width:min(100%,420px);justify-self:center}.about-visual .frame{position:absolute;inset:-14px;border:1px solid var(--line);border-radius:240px 240px 18px 18px;z-index:-1}.about-visual .cert{position:absolute;bottom:1.4rem;left:1.4rem;background:rgba(244,237,227,.92);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;max-width:200px}.about-visual .cert b{font-family:var(--serif);font-size:1.05rem;display:block}.about-visual .cert span{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-ink)}
+.about-copy h2{font-size:clamp(2.3rem,5.5vw,4rem);margin:1rem 0 1.4rem}.about-copy p{color:var(--ink-soft);margin-bottom:1.1rem;max-width:52ch}.about-copy .quote{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.4vw,1.7rem);color:var(--gold-ink);border-left:2px solid var(--gold);padding-left:1.2rem;margin:1.8rem 0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem;padding-top:2rem;border-top:1px solid var(--line)}.stat b{font-family:var(--serif);font-size:clamp(2rem,4vw,2.8rem);font-weight:600;display:block;line-height:1}.stat span{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.about-cta{display:flex;flex-wrap:wrap;gap:1rem 1.4rem;align-items:center;margin-top:2.2rem}.ig-pill{display:inline-flex;align-items:center;gap:.6rem;font-size:.8rem;border:1px solid var(--line);border-radius:100px;padding:.6rem 1.1rem;transition:.4s}.ig-pill:hover{background:var(--ink);color:var(--cream)}.ig-pill .ic{width:18px;height:18px}
+@media(min-width:900px){.about .grid{grid-template-columns:.9fr 1.1fr}}
+.visit{background:var(--ink);color:var(--cream);padding:var(--sec) 0;position:relative;overflow:hidden}.visit .wm{position:absolute;bottom:-6%;left:-2%;font-family:var(--serif);font-style:italic;font-size:clamp(6rem,22vw,18rem);color:transparent;-webkit-text-stroke:1px rgba(224,196,131,.12);pointer-events:none;z-index:0}.visit .grid{position:relative;z-index:2;display:grid;gap:clamp(2.4rem,5vw,4rem);align-items:center}.visit h2{font-size:clamp(2.6rem,7vw,5rem);margin:1.2rem 0 1.4rem}.visit .cta-row{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.2rem}
+.visit .info{border:1px solid rgba(224,196,131,.25);border-radius:18px;padding:clamp(1.6rem,4vw,2.6rem);background:rgba(255,255,255,.02)}.visit .info .irow{display:flex;gap:1rem;padding:1.1rem 0;border-bottom:1px solid rgba(224,196,131,.14)}.visit .info .irow:last-child{border-bottom:none}.visit .info .ic{width:22px;height:22px;flex:none;color:var(--gold-2);margin-top:2px}.visit .info .k{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-2);margin-bottom:.2rem}.visit .info .v{font-family:var(--serif);font-size:1.2rem;line-height:1.4}.visit .info .v a:hover{color:var(--gold-2)}.hours{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1.4rem;font-size:.95rem}.hours .d{color:var(--muted-dark)}.hours .h{text-align:right}
+@media(min-width:900px){.visit .grid{grid-template-columns:1.1fr .9fr}}
+.footer{background:var(--ink);color:var(--cream);padding:clamp(3rem,6vw,5rem) 0 2rem;border-top:1px solid rgba(224,196,131,.18)}.f-top{display:grid;gap:2.4rem;padding-bottom:2.6rem;border-bottom:1px solid rgba(224,196,131,.14)}.f-brand .l1{font-family:var(--serif);font-size:2.4rem;letter-spacing:.1em}.f-brand .l1 b{color:var(--gold-2)}.f-brand p{color:var(--muted-dark);max-width:34ch;margin-top:.8rem;font-size:.92rem}.f-col h5{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2);margin-bottom:1.1rem}.f-col a,.f-col li{display:block;color:var(--muted-dark);font-size:.92rem;padding:.32rem 0;transition:.3s}.f-col a:hover{color:var(--cream);padding-left:.4rem}.f-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;padding-top:1.8rem;font-size:.72rem;letter-spacing:.1em;color:var(--muted-dark);text-transform:uppercase}.f-bottom .toTop{cursor:pointer}.f-bottom .toTop:hover{color:var(--gold-2)}
+@media(min-width:760px){.f-top{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.float-book{position:fixed;left:50%;bottom:1.1rem;transform:translate(-50%,140%);z-index:65;display:none;align-items:center;gap:.6rem;background:var(--ink);color:var(--cream);border:1px solid var(--gold);border-radius:100px;padding:.9rem 1.6rem;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;box-shadow:var(--shadow);transition:transform .6s var(--ease)}.float-book .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-2);animation:pulse 2s infinite}.float-book.show{transform:translate(-50%,0)}@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,196,131,.5)}70%{box-shadow:0 0 0 9px rgba(224,196,131,0)}100%{box-shadow:0 0 0 0 rgba(224,196,131,0)}}
+@media(max-width:820px){.float-book{display:inline-flex}}
+.lightbox{position:fixed;inset:0;z-index:10000;background:rgba(20,15,12,.94);backdrop-filter:blur(6px);display:grid;place-items:center;padding:1.5rem;opacity:0;visibility:hidden;transition:.5s var(--ease)}.lightbox.open{opacity:1;visibility:visible}.lb-stage{max-width:min(1000px,92vw);width:100%;text-align:center}.lb-stage img{max-height:74vh;width:auto;max-width:100%;margin:0 auto;border-radius:14px;box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}.lb-cap{color:var(--cream);margin-top:1.2rem}.lb-cap .t{font-family:var(--serif);font-size:1.6rem}.lb-cap .s{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2);margin-top:.3rem}
+.lb-btn{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid rgba(224,196,131,.4);color:var(--cream);font-size:1.4rem;display:grid;place-items:center;transition:.4s}.lb-btn:hover{background:var(--gold);color:var(--ink)}.lb-prev{left:1.2rem}.lb-next{right:1.2rem}.lb-close{position:absolute;top:1.4rem;right:1.4rem;width:48px;height:48px;border-radius:50%;border:1px solid rgba(224,196,131,.4);color:var(--cream);font-size:1.3rem;display:grid;place-items:center;transition:.4s}.lb-close:hover{background:var(--gold);color:var(--ink);transform:rotate(90deg)}
+@media(max-width:640px){.lb-btn{top:auto;bottom:1.2rem;transform:none}}
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:var(--d,0s)}.js .reveal.in{opacity:1;transform:none}.js .reveal-l{transform:translateX(-34px)}.js .reveal-r{transform:translateX(34px)}.js .reveal-l.in,.js .reveal-r.in{transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}.js .reveal{opacity:1;transform:none}.marquee .track,.badge svg{animation:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<div class="progress" id="progress"></div>
+<div class="topbar">Agendando este mes <span class="dot">✦</span> Atendemos sin cita <span class="dot">✦</span> <span>@velmont.studio_nails</span></div>
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="#top" class="logo"><span class="l1">VAL<b>MONT</b></span><span class="l2">Uñas y Pestañas</span></a>
+    <nav class="nav" aria-label="Principal"><a href="#work">Trabajos</a><a href="#services">Servicios</a><a href="#about">Sobre Mí</a><a href="#visit">Visítanos</a></nav>
+    <a href="#visit" class="btn btn-primary head-cta">Agendar <span class="arw">→</span></a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mmenu"><span></span></button>
+  </div>
+</header>
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <nav class="mnav" aria-label="Móvil">
+    <a href="#work" style="transition-delay:.15s"><i>01</i>Trabajos</a>
+    <a href="#services" style="transition-delay:.22s"><i>02</i>Servicios</a>
+    <a href="#about" style="transition-delay:.29s"><i>03</i>Sobre Mí</a>
+    <a href="#visit" style="transition-delay:.36s"><i>04</i>Visítanos</a>
+  </nav>
+  <div class="mfoot">
+    <a href="#visit" class="btn btn-primary" style="justify-content:center">Agendar cita <span class="arw">→</span></a>
+    <div class="row"><div class="socials"><a href="https://instagram.com/velmont.studio_nails" target="_blank" rel="noopener">Instagram</a><a href="tel:+15550123456">Llamar</a></div><span style="font-size:.7rem;letter-spacing:.16em;color:var(--muted-dark)">Artista Certificada</span></div>
+  </div>
+</div>
+<main id="main">
+<section class="hero" id="top">
+  <span class="hero-watermark" aria-hidden="true">Valmont</span>
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="kicker reveal">Uñas · Pestañas · Arte</span>
+      <h1 class="serif reveal" style="--d:.08s">Glam suave,<br><span class="it">esculpido</span> a mano.</h1>
+      <p class="lead reveal" style="--d:.16s">Un estudio boutique donde la precisión se encuentra con el arte — trabajo certificado de acrílico, pedicuras spa y extensiones de pestañas, hechas a la medida de tus manos y tu historia.</p>
+      <div class="hero-cta reveal" style="--d:.24s"><a href="#visit" class="btn btn-primary">Agendar cita <span class="arw">→</span></a><a href="#work" class="tlink">Ver trabajos <span class="arw">→</span></a></div>
+      <div class="hero-meta reveal" style="--d:.32s"><div class="m-item"><span class="stars">★★★★★</span><b>5.0</b>Calificación de clientas</div><div class="m-item"><b>500+</b>Clientas locales</div><div class="m-item">Sigue el estudio<br><span class="ig">@velmont.studio_nails</span></div></div>
+    </div>
+    <div class="hero-visual reveal-r reveal" style="--d:.2s">
+      <div class="badge" aria-hidden="true"><svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">ESTUDIO VALMONT · ARTISTA CERTIFICADA · </textPath></text></svg><span class="bc">✦</span></div>
+      <div class="arch"><img src="work-02.jpg" alt="Uñas verde salvia y nude con delicadas vetas de hoja de oro" fetchpriority="high" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-02.jpg</b></div>'"></div>
+      <div class="float-img"><img src="work-07.jpg" alt="Uñas chrome iridiscentes con foil dorado" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda como<br><b>work-07.jpg</b></div>'"></div>
+    </div>
+  </div>
+</section>
+<div class="marquee" aria-hidden="true"><div class="track"><span>Set de Acrílico</span><span>Pedicura Spa</span><span>Extensiones de Pestañas</span><span>Arte Pintado a Mano</span><span>Cuidado Certificado</span><span>Set de Acrílico</span><span>Pedicura Spa</span><span>Extensiones de Pestañas</span><span>Arte Pintado a Mano</span><span>Cuidado Certificado</span></div></div>
+<section class="menu" id="services">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker reveal">02 — Servicios</span><h2 class="serif reveal" style="--d:.08s">El Menú</h2></div><p class="note reveal" style="--d:.16s">Precios transparentes, sin sorpresas. Agrega arte o cuidado extra a cualquier servicio.</p></div>
+    <div class="menu-cols">
+      <div class="menu-col reveal" style="--d:.05s"><h3>Uñas y Spa <small>Manos · Pies</small></h3><ul>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Set Completo de Acrílico <span class="tag">Más pedido</span></span><span class="mr-dots"></span><span class="mr-price">$65</span></div><p class="mr-desc">Esculpido, ligero como pluma y hecho para durar semanas.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Relleno / Rebalanceo de Acrílico</span><span class="mr-dots"></span><span class="mr-price">$50</span></div><p class="mr-desc">Cada 2–3 semanas para mantener la forma perfecta.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Gel / Retiro</span><span class="mr-dots"></span><span class="mr-price">$45</span></div><p class="mr-desc">Un acabado natural, limpio y brillante.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Pedicura Spa</span><span class="mr-dots"></span><span class="mr-price">$60</span></div><p class="mr-desc">Remojo, exfoliación, masaje y un esmalte perfecto.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Pedicura Spa Deluxe <span class="tag">Especialidad</span></span><span class="mr-dots"></span><span class="mr-price">$75</span></div><p class="mr-desc">Incluye masaje con piedras calientes y cuidado extendido.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Arte Pintado a Mano</span><span class="mr-dots"></span><span class="mr-price">desde $10</span></div><p class="mr-desc">Por uña — florales, chrome, foil, ombré y más.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Arte 3D / Esculpido</span><span class="mr-dots"></span><span class="mr-price">desde $25</span></div><p class="mr-desc">Charms dimensionales, florales y piedras.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Retiro</span><span class="mr-dots"></span><span class="mr-price">$15</span></div><p class="mr-desc">Retiro suave y seguro para las cutículas.</p></li>
+      </ul></div>
+      <div class="menu-col reveal" style="--d:.12s"><h3>Pestañas y Cejas <small>Ojos</small></h3><ul>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Set Clásico</span><span class="mr-dots"></span><span class="mr-price">$120</span></div><p class="mr-desc">Una pestaña, una extensión — suave y natural.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Set de Volumen <span class="tag">Más pedido</span></span><span class="mr-dots"></span><span class="mr-price">$150</span></div><p class="mr-desc">Abanicos plumíferos para plenitud y drama.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Híbrido / Mixto</span><span class="mr-dots"></span><span class="mr-price">$140</span></div><p class="mr-desc">Una mezcla de clásico y volumen para dar dimensión.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Relleno de Pestañas</span><span class="mr-dots"></span><span class="mr-price">$70</span></div><p class="mr-desc">Renueva tu set cada 2–3 semanas.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Lift + Tinte de Pestañas</span><span class="mr-dots"></span><span class="mr-price">$95</span></div><p class="mr-desc">Tus propias pestañas, curvadas y oscurecidas.</p></li>
+        <li class="menu-row"><div class="mr-top"><span class="mr-name">Laminado de Cejas</span><span class="mr-dots"></span><span class="mr-price">$85</span></div><p class="mr-desc">Llenas, peinadas hacia arriba y perfectamente definidas.</p></li>
+      </ul></div>
+    </div>
+    <div class="addons reveal"><span class="lbl">Extras</span><span class="chip">Capa de Gel <b>+$15</b></span><span class="chip">Tratamiento de Parafina <b>+$15</b></span><span class="chip">Masaje de Manos <b>+$10</b></span><span class="chip">Piedras / Rhinestones <b>desde $5</b></span><span class="chip">Chrome / Cat-Eye <b>+$10</b></span></div>
+  </div>
+</section>
+<section class="gallery" id="work">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker reveal">01 — Trabajos</span><h2 class="serif reveal" style="--d:.08s">Sets reales, <span class="it">manos reales</span></h2></div><p class="note reveal" style="--d:.16s">Trabajos recientes de clientas — toca cualquier set para verlo de cerca.</p></div>
+    <div class="masonry">
+      <figure class="g-item reveal" data-title="Pitaya y Tigre" data-tag="Arte 3D Esculpido"><span class="g-num">01</span><img src="work-01.jpg" alt="Uñas rosa intenso con pitaya 3D, rayas de tigre y cuentas doradas" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-01.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Pitaya y Tigre</span><span class="s">Arte 3D Esculpido</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Salvia y Hoja de Oro" data-tag="Chrome Orgánico" style="--d:.05s"><span class="g-num">02</span><img src="work-02.jpg" alt="Uñas verde salvia y nude con vetas de hoja de oro" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-02.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Salvia y Hoja de Oro</span><span class="s">Chrome Orgánico</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Flor Cobalto" data-tag="Florales 3D" style="--d:.1s"><span class="g-num">03</span><img src="work-03.jpg" alt="Uñas coffin azul y blanco con flores 3D y puntos dorados" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-03.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Flor Cobalto</span><span class="s">Florales 3D</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Atardecer Ombré" data-tag="Degradé Brillante" style="--d:.15s"><span class="g-num">04</span><img src="work-04.jpg" alt="Uñas ombré verde azulado y naranja, brillantes" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-04.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Atardecer Ombré</span><span class="s">Degradé Brillante</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Corazones y Estrellas" data-tag="Detalle Pintado a Mano" style="--d:.2s"><span class="g-num">05</span><img src="work-05.jpg" alt="Uñas blanco y rosa con corazones, estrellas, glitter y piedras" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-05.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Corazones y Estrellas</span><span class="s">Detalle Pintado a Mano</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Mariquita Macro" data-tag="Charm Esculpido" style="--d:.05s"><span class="g-num">06</span><img src="work-06.jpg" alt="Macro de una uña amarilla con una mariquita 3D" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-06.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Mariquita Macro</span><span class="s">Charm Esculpido</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Chrome Líquido" data-tag="Foil Iridescente" style="--d:.1s"><span class="g-num">07</span><img src="work-07.jpg" alt="Uñas chrome iridiscentes con foil dorado" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-07.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Chrome Líquido</span><span class="s">Foil Iridescente</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Ámbar y Perla" data-tag="Tortuga + Oro" style="--d:.15s"><span class="g-num">08</span><img src="work-08.jpg" alt="Uñas ámbar tortuga con perla y detalles dorados" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-08.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Ámbar y Perla</span><span class="s">Tortuga + Oro</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Crepúsculo Verde" data-tag="Set Ombré" style="--d:.2s"><span class="g-num">09</span><img src="work-09.jpg" alt="Uñas ombré verde azulado y naranja en ambas manos" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-09.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Crepúsculo Verde</span><span class="s">Set Ombré</span></figcaption></figure>
+      <figure class="g-item reveal" data-title="Rosa Natural" data-tag="Natural Limpio" style="--d:.05s"><span class="g-num">10</span><img src="work-10.jpg" alt="Uñas nude natural con puntas rosa suave" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-10.jpg</b></div>'"><figcaption class="g-cap"><span class="view"><span>+</span></span><span class="t">Rosa Natural</span><span class="s">Natural Limpio</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="wrap grid">
+    <div class="about-visual reveal-l reveal"><span class="frame" aria-hidden="true"></span><div class="arch"><img src="work-08.jpg" alt="Vista cercana de manos con arte de uñas ámbar y dorado" loading="lazy" onerror="this.onerror=null;this.outerHTML='<div class=&quot;missing&quot;>Guarda esta foto como<br><b>work-08.jpg</b></div>'"></div><div class="cert"><span>Certificada</span><b>Artista de Uñas y Pestañas</b></div></div>
+    <div class="about-copy">
+      <span class="kicker reveal">03 — La Artista</span>
+      <h2 class="serif reveal" style="--d:.08s">Conoce a <span class="it">Monica</span></h2>
+      <p class="reveal" style="--d:.14s">Valmont Studio es el trabajo de Monica, técnica certificada en uñas y pestañas. Formada en aplicación estructurada de acrílico, arte pintado a mano avanzado y arte de pestañas, Monica trata cada set como una colaboración: primero escucha, luego diseña algo que se sienta inconfundiblemente tuyo.</p>
+      <p class="reveal" style="--d:.2s">Desde una sola uña de acento elegante hasta un statement 3D completo, el enfoque es el mismo: preparación limpia, aplicación cuidadosa y un acabado que se ve tan hermoso como se siente en la mano.</p>
+      <blockquote class="quote reveal" style="--d:.26s">"Las uñas deben sentirse como una extensión de ti, nunca como una plantilla."</blockquote>
+      <div class="stats reveal" style="--d:.3s"><div class="stat"><b data-count="5" data-suffix="+">0</b><span>Años de oficio</span></div><div class="stat"><b data-count="3" data-suffix="k+">0</b><span>Sets esculpidos</span></div><div class="stat"><b data-count="500" data-suffix="+">0</b><span>Clientas locales</span></div></div>
+      <div class="about-cta reveal" style="--d:.34s"><a href="#visit" class="btn btn-primary">Agendar con Monica <span class="arw">→</span></a><a href="https://instagram.com/monica" target="_blank" rel="noopener" class="ig-pill"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@monica</a></div>
+    </div>
+  </div>
+</section>
+<section class="visit on-dark" id="visit">
+  <span class="wm" aria-hidden="true">Valmont</span>
+  <div class="wrap grid">
+    <div>
+      <span class="kicker on-dark reveal">04 — Visítanos</span>
+      <h2 class="serif reveal" style="--d:.08s">Reserva tu <span class="it">sillón</span></h2>
+      <p class="lead reveal" style="--d:.14s">Las citas son por reserva para dar a cada clienta atención completa y sin apuros. Atendemos sin cita cuando hay un sillón libre. Manda un mensaje o llama para agendar: confirmaremos tu hora y platicaremos sobre tu set.</p>
+      <div class="cta-row reveal" style="--d:.2s"><a href="https://instagram.com/velmont.studio_nails" target="_blank" rel="noopener" class="btn btn-primary">Agendar por Instagram <span class="arw">→</span></a><a href="tel:+15550123456" class="btn btn-ghost on-dark">Llamar al estudio</a></div>
+    </div>
+    <div class="info reveal-r reveal" style="--d:.16s">
+      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><div class="k">Estudio</div><div class="v">Valmont Studio Uñas y Pestañas<br>Hda. San Miguel 544, Hacienda Santa Lucía 1er. Sector<br>67267 Cdad. Benito Juárez, N.L.</div></div></div>
+      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><div class="k">Horario</div><div class="v"><div class="hours"><span class="d">Lun – Sáb</span><span class="h">11 am – 7 pm</span><span class="d">Citas</span><span class="h">11 · 1 · 3 · 5 · 7</span><span class="d">Domingo</span><span class="h">11 am – 5 pm</span></div></div></div></div>
+      <div class="irow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5c0 8 7 15 15 15l0-3-4-2-2 2c-3-1.5-5.5-4-7-7l2-2-2-4z"/></svg><div><div class="k">Agendar / Consultar</div><div class="v"><a href="tel:+15550123456">(555) 012‑3456</a> · <a href="https://instagram.com/velmont.studio_nails" target="_blank" rel="noopener">@velmont.studio_nails</a></div></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="f-top">
+      <div class="f-brand"><div class="l1">VAL<b>MONT</b></div><p>Un estudio boutique de uñas y pestañas. Glam suave, esculpido a mano — cuidado certificado para tus manos y tus ojos.</p></div>
+      <div class="f-col"><h5>Explorar</h5><a href="#work">Trabajos</a><a href="#services">Servicios</a><a href="#about">Sobre Mí</a><a href="#visit">Visítanos</a></div>
+      <div class="f-col"><h5>Servicios</h5><a href="#services">Acrílico y Gel</a><a href="#services">Pedicura Spa</a><a href="#services">Extensiones de Pestañas</a><a href="#services">Arte Pintado a Mano</a></div>
+      <div class="f-col"><h5>Conectar</h5><a href="https://instagram.com/velmont.studio_nails" target="_blank" rel="noopener">Instagram</a><a href="tel:+15550123456">Llamar</a><a href="#visit">Agendar</a></div>
+    </div>
+    <div class="f-bottom"><span>© <span id="yr"></span> Valmont Studio · Todos los derechos reservados</span><span class="toTop" id="toTop">Volver arriba ↑</span></div>
+  </div>
+</footer>
+<a href="#visit" class="float-book" id="floatBook"><span class="dot"></span> Agendar</a>
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Visor de imágenes">
+  <button class="lb-close" id="lbClose" aria-label="Cerrar">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Anterior">‹</button>
+  <div class="lb-stage"><img id="lbImg" src="" alt=""><div class="lb-cap"><div class="t" id="lbTitle"></div><div class="s" id="lbTag"></div></div></div>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Siguiente">›</button>
+</div>
+<script>
+document.documentElement.classList.replace('no-js','js');
+var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.getElementById('yr').textContent=new Date().getFullYear();
+var header=document.getElementById('header'),progress=document.getElementById('progress'),floatBook=document.getElementById('floatBook');
+function onScroll(){var y=window.scrollY;header.classList.toggle('scrolled',y>40);var h=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(h>0?(y/h*100):0)+'%';floatBook.classList.toggle('show',y>600&&y<h-700);}
+window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+var burger=document.getElementById('burger'),mmenu=document.getElementById('mmenu');
+function toggleMenu(open){document.body.classList.toggle('menu-open',open);document.body.classList.toggle('no-scroll',open);burger.setAttribute('aria-expanded',open);mmenu.setAttribute('aria-hidden',!open);}
+burger.addEventListener('click',function(){toggleMenu(!document.body.classList.contains('menu-open'));});
+mmenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){toggleMenu(false);});});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+document.querySelectorAll('[data-count]').forEach(function(el){var t=+el.dataset.count,suf=el.dataset.suffix||'';if(reduce){el.textContent=t+suf;return;}var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){var s=0,step=Math.max(1,Math.ceil(t/40));var iv=setInterval(function(){s+=step;if(s>=t){s=t;clearInterval(iv);}el.textContent=s+suf;},30);so.unobserve(e.target);}});},{threshold:.5});so.observe(el);});
+var items=[].slice.call(document.querySelectorAll('.g-item')),lb=document.getElementById('lightbox'),lbImg=document.getElementById('lbImg'),lbT=document.getElementById('lbTitle'),lbS=document.getElementById('lbTag'),idx=0;
+function show(i){idx=(i+items.length)%items.length;var it=items[idx];var img=it.querySelector('img');lbImg.src=img?img.src:'';lbImg.alt=img?img.alt:'';lbT.textContent=it.dataset.title||'';lbS.textContent=it.dataset.tag||'';}
+function openLb(i){show(i);lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.classList.add('no-scroll');}
+function closeLb(){lb.classList.remove('open');lb.setAttribute('aria-hidden','true');document.body.classList.remove('no-scroll');}
+items.forEach(function(it,i){it.addEventListener('click',function(){openLb(i);});});
+document.getElementById('lbClose').addEventListener('click',closeLb);
+document.getElementById('lbPrev').addEventListener('click',function(){show(idx-1);});
+document.getElementById('lbNext').addEventListener('click',function(){show(idx+1);});
+lb.addEventListener('click',function(e){if(e.target===lb)closeLb();});
+document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1);});
+document.getElementById('toTop').addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});});
+</script>
+</body>
+</html>
